@@ -18,7 +18,7 @@ if not os.path.isdir('files'):
             os.mkdir('files')
             with open('files/remove.exe', 'wb') as f:
                 print('Installing "remove.exe"')
-                f.write(requests.get('https://github.com/jedpep/Roblox-Clothing-Stealer/raw/main/remove.exe').content)
+                f.write(requests.get('https://github.com/jedpep/Roblox-Mass-Clothing-Stealer/blob/main/remove.exe?raw=true').content)
         print('Installation finished')
         input('Press RETURN to finish...')
         exit()
@@ -88,12 +88,12 @@ def main(ID, MODE, WATERMARK):
     input('Finished downloading assets!\nPress RETURN to exit...')
 
 print(r"""
-_________ .__          __  .__    .__                   _________ __                .__                
-\_   ___ \|  |   _____/  |_|  |__ |__| ____    ____    /   _____//  |_  ____ _____  |  |   ___________ 
-/    \  \/|  |  /  _ \   __\  |  \|  |/    \  / ___\   \_____  \\   __\/ __ \\__  \ |  | _/ __ \_  __ \
-\     \___|  |_(  <_> )  | |   Y  \  |   |  \/ /_/  >  /        \|  | \  ___/ / __ \|  |_\  ___/|  | \/
- \______  /____/\____/|__| |___|  /__|___|  /\___  /  /_______  /|__|  \___  >____  /____/\___  >__|   
-        \/                      \/        \//_____/           \/           \/     \/          \/         
+        _________ .__          __  .__    .__                   _________ __                .__                
+        \_   ___ \|  |   _____/  |_|  |__ |__| ____    ____    /   _____//  |_  ____ _____  |  |   ___________ 
+        /    \  \/|  |  /  _ \   __\  |  \|  |/    \  / ___\   \_____  \\   __\/ __ \\__  \ |  | _/ __ \_  __ \
+        \     \___|  |_(  <_> )  | |   Y  \  |   |  \/ /_/  >  /        \|  | \  ___/ / __ \|  |_\  ___/|  | \/
+        \______  /____/\____/|__| |___|  /__|___|  /\___  /  /_______  /|__|  \___  >____  /____/\___  >__|   
+                \/                      \/        \//_____/           \/           \/     \/          \/         
 """)
 
 mode = input('Group or clothing: ').lower()
