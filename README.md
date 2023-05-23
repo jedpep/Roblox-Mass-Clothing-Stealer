@@ -11,9 +11,11 @@ then download "Clothing-Stealer.py" <a href="https://raw.githubusercontent.com/j
 
 If you only want to remove the watermarks from assets download it <a href="https://github.com/jedpep/Roblox-Clothing-Stealer/raw/main/remove.exe">here</a>
 
-To use it simply drag the image onto the program as shown in the gif
+To use it simply drag the image onto the exe
 
-<img src="https://s3.us-east-1.wasabisys.com/e-zimagehosting/76b1e04f-2ab5-4b69-8a6f-4499dd055e05/gqa66bxs.gif">
+## FAQ
+
+When it asks "Group or clothing", if you want to download all the clothing from a group type "group", type "clothing" if its only 1 item
 
 ## Credits
 
